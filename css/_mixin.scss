@@ -1,0 +1,24 @@
+@use 'variables' as v;
+
+@mixin em40 {
+  @media (min-width: (v.$em40)) {
+    @content;
+  }
+}
+
+@mixin em64 {
+  @media (min-width: (v.$em64)) {
+    @content;
+  }
+}
+
+@mixin breakMin($breakPoint) {
+  @media (min-width: ($breakPoint)) {
+    @content;
+  }
+}
+@mixin breakMax($breakPoint) {
+  @media (max-width: ($breakPoint)) {
+    @content;
+  }
+}
