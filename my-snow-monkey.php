@@ -48,9 +48,9 @@ add_action('admin_enqueue_scripts',
 // Google fonts 読み込み
 //add_action('wp_head',
 //    function () {
-//        ?>
-<!--        <link rel="preconnect" href="https://fonts.gstatic.com">-->
-<!--        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=M+PLUS+Rounded+1c:wght@500;800&display=swap"-->
-<!--              rel="stylesheet">-->
-<!--        --><?php
+//          $fonts = <<<EOF
+//              <link rel="preconnect" href="https://fonts.gstatic.com">
+//              <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=M+PLUS+Rounded+1c:wght@500;800&display=swap" rel="stylesheet">
+//              EOF;
+//          echo $fonts;
 //    });
