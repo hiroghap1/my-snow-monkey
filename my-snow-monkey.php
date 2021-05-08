@@ -14,7 +14,7 @@
  */
 $theme = wp_get_theme( get_template() );
 if ( 'snow-monkey' !== $theme->template && 'snow-monkey/resources' !== $theme->template ) {
-	return;
+    return;
 }
 
 /**
@@ -34,14 +34,14 @@ define( 'MY_SNOW_MONKEY_PATH', untrailingslashit( plugin_dir_path( __FILE__ ) ) 
 // スタイルとスクリプトの読み込み
 add_action('wp_enqueue_scripts',
     function () {
-        wp_enqueue_style('style', MY_SNOW_MONKEY_URL.'css/style.css',array(),date_i18n( 'YmdHis'));
-        wp_enqueue_script('script', MY_SNOW_MONKEY_URL.'js/main.js', array(), false, true);
+        wp_enqueue_style('style', MY_SNOW_MONKEY_URL.'/css/style.css',array(),date_i18n( 'YmdHis'));
+        wp_enqueue_script('script', MY_SNOW_MONKEY_URL.'/js/main.js', array(), false, true);
     },
     11, 2);
 
 add_action('admin_enqueue_scripts',
     function () {
-        wp_enqueue_style('admin_style', MY_SNOW_MONKEY_URL.'css/style.css');
+        wp_enqueue_style('admin_style', MY_SNOW_MONKEY_URL.'/css/style.css');
     },
     10, 2);
 
