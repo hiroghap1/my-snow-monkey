@@ -54,3 +54,21 @@ add_action('admin_enqueue_scripts',
 //              EOF;
 //          echo $fonts;
 //    });
+
+add_action('login_head',
+    function () {
+        echo '<style>.login h1 a {background-image: url();width:100%;height:56px;background-size:contain;}</style>';
+    }
+);
+
+add_filter( 'login_headerurl',
+    function () {
+        return esc_url( home_url( '/' ) );
+    }
+);
+
+add_filter( 'login_headertitle',
+    function () {
+        return esc_html(get_bloginfo('name'));
+    }
+);
