@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb852bf9-691a-429e-9b50-b12de58cf4e7" name="デフォルト変更リスト" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-snow-monkey.php" beforeDir="false" afterPath="$PROJECT_DIR$/my-snow-monkey.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1msCEoEsNRtK2i6GZ9NfuVvdYZi" />
   <component name="ProjectViewState">
@@ -54,7 +57,7 @@
       <workItem from="1610272805140" duration="2672000" />
       <workItem from="1617878307189" duration="42000" />
       <workItem from="1620447264009" duration="2162000" />
-      <workItem from="1624641642323" duration="48000" />
+      <workItem from="1624641642323" duration="579000" />
     </task>
     <servers />
   </component>

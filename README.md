@@ -1,6 +1,6 @@
-# My Snow Monkey
+# My Snow Monkey カスタム
 
-子テーマの `functions.php` にカスタマイズコードを追加するように、このプラグインの `my-snow-monkey.php` に書くと、同じようにカスタマイズが反映されます。
+WordPressテーマ、Snow Monkey専用プラグインであるMy Snow Monkeyのカスタム用です。
 
 ## 定数
 

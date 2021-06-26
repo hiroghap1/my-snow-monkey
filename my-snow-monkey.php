@@ -55,6 +55,7 @@ add_action('admin_enqueue_scripts',
 //          echo $fonts;
 //    });
 
+// ログイン画面のカスタム
 add_action('login_head',
     function () {
         echo '<style>.login h1 a {background-image: url();width:100%;height:56px;background-size:contain;}</style>';
