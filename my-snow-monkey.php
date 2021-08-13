@@ -73,3 +73,17 @@ add_filter( 'login_headertitle',
         return esc_html(get_bloginfo('name'));
     }
 );
+
+// 目次自動生成
+// add_filter(
+//     'snow_monkey_display_contents_outline',
+//     function( $display ) {
+//         if ( is_front_page() ) {
+//             return false;
+//         }
+//         if ( is_single() ) {
+//             return true;
+//         }
+//         return false;
+//     }
+// );
